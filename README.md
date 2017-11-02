@@ -212,8 +212,8 @@ Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space
 Merge k sorted linked lists and return it as one sorted list.
 <br><br>
 **Example:** 
-**1 -> 10 -> 20
-4 -> 11 -> 13
+**1 -> 10 -> 20 <br>
+4 -> 11 -> 13 <br>
 3 -> 8 -> 9** will result in ***1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20***
 <br><br>
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Heaps%20And%20Maps/MergeKSortedLists.cpp)
