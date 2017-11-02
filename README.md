@@ -186,7 +186,8 @@ Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and c
 
 ### Math
 ---
-####[RearrangeArray](https://www.interviewbit.com/problems/rearrange-array/)
+
+####[Rearrange Array](https://www.interviewbit.com/problems/rearrange-array/)
 <br>
 Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space.
 <br><br>
@@ -205,6 +206,20 @@ Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space
 
 ### Heaps And Maps
 - - -
+
+####[Merge K Sorted Lists](https://www.interviewbit.com/problems/merge-k-sorted-lists/)
+<br>
+Merge k sorted linked lists and return it as one sorted list.
+<br><br>
+**Example:** 
+**1 -> 10 -> 20
+4 -> 11 -> 13
+3 -> 8 -> 9** will result in ***1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20***
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Heaps%20And%20Maps/MergeKSortedLists.cpp)
+<br>
+<br>
+<br>
 
 ### BackTracking
 - - -
