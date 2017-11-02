@@ -203,6 +203,23 @@ Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space
 <br>
 <br>
 
+####[Excel Column Title](https://www.interviewbit.com/problems/excel-column-title/)
+<br>
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+<br><br>
+**Example:** <br>
+1 -> A <br>
+2 -> B <br>
+3 -> C <br>
+...   <br>
+26 -> Z <br>
+27 -> AA <br>
+28 -> AB  
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnTitle.cpp)
+<br>
+<br>
+<br>
 
 ### Heaps And Maps
 - - -
