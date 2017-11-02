@@ -1,6 +1,6 @@
 # SrGrace's InterviewBit-Wiki
 
-Collection of solution for problems on https://www.interviewbit.com
+Collection of solution for problems on [InterviewBit](https://www.interviewbit.com)
 
 
 ### Contents
