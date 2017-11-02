@@ -21,7 +21,8 @@ Collection of solution for problems on [InterviewBit](https://www.interviewbit.c
 ### Arrays
 ---
 
-[Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
+####[Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
+<br>
 Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ). 
 The digits are stored such that the most significant digit is at the head of the list.
 <br><br>
@@ -36,6 +37,7 @@ as 123 + 1 = 124.
 <br>
 
 ####[Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
+<br>
 Given a read only array of n + 1 integers between 1 and n, find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
 <br><br>
 **Example:** For **[3, 4, 1, 4, 1]**, you should return ***1***.
@@ -48,6 +50,7 @@ Given a read only array of n + 1 integers between 1 and n, find one number that 
 <br>
 
 ####[First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
+<br>
 Given an unsorted integer array, find the first missing positive integer.
 <br><br>
 **Example:** For **[1,2,0]** return ***3***, **[3,4,-1,1]** return ***2***, **[-8, -7, -6]** returns ***1***
@@ -60,6 +63,7 @@ Given an unsorted integer array, find the first missing positive integer.
 <br>
 
 ####[flip](https://www.interviewbit.com/problems/flip/)
+<br>
 You are given a binary string(i.e. with characters 0 and 1) S consisting of characters S1, S2, …, SN. In a single operation, you can choose two indices L and R such that 1 ≤ L ≤ R ≤ N and flip the characters SL, SL+1, …, SR. By flipping, we mean change character 0 to 1 and vice-versa.
 <br>
 Your aim is to perform ATMOST one operation such that in final string number of 1s is maximised. If you don’t want to perform the operation, return an empty array. Else, return an array consisting of two elements denoting L and R. If there are multiple solutions, return the lexicographically smallest pair of L and R.
@@ -89,6 +93,7 @@ No operation can give us more than three 1s in final string. So, we return ***em
 <br>
 
 ####[Largest number](https://www.interviewbit.com/problems/largest-number/)
+<br>
 Given a list of non negative integers, arrange them such that they form the largest number.
 <br><br>
 **Example:** Given **[3, 30, 34, 5, 9]**, the largest formed number is ***9534330***.
@@ -101,6 +106,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 <br>
 
 ####[Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
+<br>
 Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
 <br><br>
 **Example:** For **[-2,1,-3,4,-1,2,1,-5,4]**, the contiguous subarray **[4,-1,2,1]** has the largest sum, which is ***6***.
@@ -113,6 +119,7 @@ For this problem, return the maximum sum.
 <br>
 
 ####[Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
+<br>
 Given a collection of intervals, merge all overlapping intervals.
 <br><br>
 **Example:** Given **[1,3], [2,6], [8,10], [15,18]**, return ***[1,6] [8,10] [15,18]***.
@@ -125,6 +132,7 @@ Given a collection of intervals, merge all overlapping intervals.
 <br>
 
 ####[Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
+<br>
 You are in an infinite 2D grid where you can move in any of the 8 directions :
 <br>
  (x,y) to <br>
@@ -148,6 +156,7 @@ It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move fr
 <br>
 
 ####[Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
+<br>
 You are given a read only array of n integers from 1 to n.
 Each integer appears exactly once except A which appears twice and B which is missing. Return A and B.
 <br><br>
@@ -163,6 +172,7 @@ Each integer appears exactly once except A which appears twice and B which is mi
 <br>
 
 ####[Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
+<br>
 Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0. Do it in place.
 <br><br>
 **Example:** For a given array A as **[ [1, 0 ,1], [1, 1, 1], [1, 1, 1,] ]**, on returning, the array A should be ***[ [0, 0 ,0], [1, 0, 1], [1, 0, 1] ]***
