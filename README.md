@@ -75,14 +75,15 @@ ______________ |_____________ <br>
 [1 3]          |      101  <br>
 [2 2]          |      000  <br>
 [2 3]          |      001  <br>
-
 <br>
-We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return ***[1, 1]***
+
+We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return ***[1, 1]***.
 <br><br>
 **Example:** Given **S = 111**, 
 <br>
-No operation can give us more than three 1s in final string. So, we return ***empty array []***
+No operation can give us more than three 1s in final string. So, we return ***empty array []***.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/Flip.cpp)
 <br>
 <br>
