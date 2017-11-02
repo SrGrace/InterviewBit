@@ -2,6 +2,8 @@
 
 https://www.interviewbit.com/problems/add-one-to-number/
 
+
+
 Given a non-negative number represented as an array of digits,
 
 add 1 to the number ( increment the number represented by the digits ).
@@ -18,7 +20,8 @@ as 123 + 1 = 124.
 
 */
 
-vector<int> Solution::plusOne(vector<int> &A) {
+vector<int> Solution::plusOne(vector<int> &A) 
+{
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
@@ -26,20 +29,26 @@ vector<int> Solution::plusOne(vector<int> &A) {
 
     int carry=1;
     vector<int> v;
-    for(int i=A.size()-1;i>=0;--i){
+    
+    for(int i=A.size()-1;i>=0;--i)
+    {
         int sum;
         sum=A[i]+carry;
         carry=sum/10;
         v.push_back(sum%10);
     }
+    
     v.push_back(carry);
     int i=v.size()-1;
     
     vector<int> res;
-    while(i>=0 && v[i]==0){
+    while(i>=0 && v[i]==0)
+    {
         i--;
     }
-    while(i>=0){
+    
+    while(i>=0)
+    {
         res.push_back(v[i]);
         i--;
     }
