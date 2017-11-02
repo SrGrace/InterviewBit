@@ -195,7 +195,8 @@ Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space
 **Note:**  Lets say N = size of the array. Then, following holds true :
 * All elements in the array are in the range [0, N-1]
 * N * N does not overflow for a signed integer
-<br><br>
+<br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/RearrangeArray.cpp)
 <br>
 <br>
