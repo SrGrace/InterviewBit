@@ -215,7 +215,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 26 -> Z <br>
 27 -> AA <br>
 28 -> AB  
-<br><br>
+<br>
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnTitle.cpp)
 <br>
 <br>
