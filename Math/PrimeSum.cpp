@@ -1,5 +1,9 @@
 /*
 
+https://www.interviewbit.com/problems/Prime-Sum/
+
+
+
 Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number.
 
 NOTE A solution will always exist. read Goldbach’s conjecture
