@@ -7,7 +7,7 @@ Collection of solution for problems on [InterviewBit](https://www.interviewbit.c
 
 * [Arrays](#arrays)  
 * [Math](#math)
-* [Heaps And Maps](#Heaps-And-Maps)
+* [Heaps And Maps](#heaps-and-maps)
 * [BackTracking](#backtracking)
 * [Binary Search](#binary-search)
 * [Bit Manipulation](#bit-manipulation)
