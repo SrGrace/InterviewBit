@@ -190,13 +190,12 @@ Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and c
 <br>
 Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space.
 <br><br>
-**Example:** For a given array A as **[1, 0]**, on returning, the array A should be ***[0, 1] ***
+**Example:** For a given array Arr as **[1, 0]**, on returning, the array Arr should be ***[0, 1]***
 <br><br>
 **Note:**  Lets say N = size of the array. Then, following holds true :
 * All elements in the array are in the range [0, N-1]
 * N * N does not overflow for a signed integer
 <br><br>
-
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/RearrangeArray.cpp)
 <br>
 <br>
