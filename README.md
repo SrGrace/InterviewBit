@@ -2,7 +2,8 @@
 
 Collection of solution for problems on https://www.interviewbit.com
 
-##Contents
+
+#Contents
 
 * [Arrays](#arrays)  
 * [Math](#math)
@@ -65,7 +66,7 @@ Your aim is to perform ATMOST one operation such that in final string number of 
 <br><br>
 **Notes:** Pair (a, b) is lexicographically smaller than pair (c, d) if a < c or, if a == c and b < d.
 <br><br>
-**Examples:** Given **S = 010**, 
+**Example:** Given **S = 010**, 
 <br>
 Pair of [L, R] | Final string <br>
 ______________|_____________ <br>
@@ -78,8 +79,8 @@ ______________|_____________ <br>
 <br>
 We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return ***[1, 1]***
 <br>
-
-Given **S = 111**
+<br>
+**Examples:** Given **S = 111**
 No operation can give us more than three 1s in final string. So, we return ***empty array []***
 <br><br>
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/Flip.cpp)
