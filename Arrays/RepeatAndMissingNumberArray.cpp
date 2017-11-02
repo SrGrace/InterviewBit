@@ -1,5 +1,8 @@
 /*
 
+https://www.interviewbit.com/problems/Repeat-And-Missing-Number-Array/
+
+
 You are given a read only array of n integers from 1 to n.
 
 Each integer appears exactly once except A which appears twice and B which is missing.
@@ -48,5 +51,8 @@ vector<int> Solution::repeatedNumber(const vector<int> &A)
     res.push_back(x); res.push_back(y);
     return res;
 }
+
+
+
 
 
