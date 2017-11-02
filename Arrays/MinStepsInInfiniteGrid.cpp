@@ -1,5 +1,8 @@
 /*
 
+https://www.interviewbit.com/problems/Min-Steps-In-Infinite-Grid/
+
+
 You are in an infinite 2D grid where you can move in any of the 8 directions :
 
  (x,y) to 
@@ -30,12 +33,20 @@ It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move fr
 int Solution::coverPoints(vector<int> &X, vector<int> &Y) 
 {
     int x,y,steps=0;
-    for(int i=1;i<X.size();i++){
+ 
+    for(int i=1;i<X.size();i++)
+    {
         x=abs(X[i]-X[i-1]);
         y=abs(Y[i]-Y[i-1]);
+     
         steps+=max(x,y);
     }
     return steps;
 }
+
+
+
+
+
 
 
