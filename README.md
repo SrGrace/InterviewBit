@@ -234,7 +234,7 @@ Z -> 26  <br>
 AA -> 27  <br>
 AB -> 28   
 <br>
-[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnNumber.cpp
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnNumber.cpp)
 <br>
 <br>
 <br>
@@ -246,7 +246,7 @@ Given a positive integer N, print all the integers from 1 to N. But for multiple
 **Example:** Given **N = 5** Return: ***[1 2 Fizz 4 Buzz]***
 <br><br>
 **Note:**  Instead of printing the answer, you have to return it as list of strings.
-<br>
+<br><br>
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/FizzBuzz.cpp)
 <br>
 <br>
