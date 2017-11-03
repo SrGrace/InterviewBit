@@ -366,6 +366,6 @@ will result in <br> ***1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20***
 
 <br><br><br><br>
 
-**NOTE:** PRs are always welcome. :)
+**NOTE:** PRs and Stars are always welcome :)
 
 
