@@ -264,7 +264,58 @@ Output : ***True*** <br><br>
 Input : **123** <br>
 Output : ***False*** 
 <br><br>
-[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/FizzBuzz.cpp)
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PalindromeInteger.cpp)
+<br>
+<br>
+<br>
+
+####[Power Of Two Integers](https://www.interviewbit.com/problems/power-of-two-integers/)
+<br>
+Given a positive integer which fits in a 32 bit signed integer, find if it can be expressed as A^P where P > 1 and A > 0. <br>
+A and P both should be integers.
+<br><br>
+**Example:** <br>
+Input : **4** <br>
+Output : ***True*** <br>
+as 2^2 = 4. 
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PowerOfTwoIntegers.cpp)
+<br>
+<br>
+<br>
+
+####[Prime Sum](https://www.interviewbit.com/problems/Prime-Sum/)
+<br>
+Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number.
+<br><br>
+**Example:** <br>
+Input : **4** <br>
+Output : ***2 + 2 = 4***
+<br><br>
+**Note:** If there are more than one solutions possible, return the lexicographically smaller solution.<br>
+If [a, b] is one solution with a <= b, <br>
+and [c,d] is another solution with c <= d, then <br>
+[a, b] < [c, d] <br>
+If a < c OR a==c AND b < d. 
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PrimeSum.cpp)
+<br>
+<br>
+<br>
+
+####[Greatest Common Divisor](https://www.interviewbit.com/problems/greatest-common-divisor/)
+<br>
+Given 2 non negative integers m and n, find gcd(m, n). <br>
+GCD of 2 integers m and n is defined as the greatest integer g such that g is a divisor of both m and n.
+Both m and n fit in a 32 bit signed integer.
+<br><br>
+**Example:** <br>
+Input : **m = 6, n = 9** <br>
+Output : ***GCD(m, n) = 3*** 
+<br><br>
+**Note:** DO NOT USE LIBRARY FUNCTIONS
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/greatestCommonDivisor.cpp)
 <br>
 <br>
 <br>
