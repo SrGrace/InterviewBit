@@ -221,6 +221,55 @@ Given a positive integer, return its corresponding column title as appear in an 
 <br>
 <br>
 
+####[Excel Column Number](https://www.interviewbit.com/problems/excel-column-number/)
+<br>
+Given a column title as appears in an Excel sheet, return its corresponding column number.
+<br><br>
+**Example:** <br>
+A -> 1 <br>
+B -> 2 <br>
+C -> 3 <br>
+...  <br>
+Z -> 26  <br>
+AA -> 27  <br>
+AB -> 28   
+<br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnNumber.cpp
+<br>
+<br>
+<br>
+
+####[FizzBuzz](https://www.interviewbit.com/problems/fizzbuzz/)
+<br>
+Given a positive integer N, print all the integers from 1 to N. But for multiples of 3 print “Fizz” instead of the number and for the multiples of 5 print “Buzz”. Also for number which are multiple of 3 and 5, prints “FizzBuzz”.
+<br><br>
+**Example:** Given **N = 5** Return: ***[1 2 Fizz 4 Buzz]***
+<br><br>
+**Note:**  Instead of printing the answer, you have to return it as list of strings.
+<br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/FizzBuzz.cpp)
+<br>
+<br>
+<br>
+
+####[Palindrome Integer](https://www.interviewbit.com/problems/palindrome-integer/)
+<br>
+Determine whether an integer is a palindrome. Do this without extra space. <br>
+A palindrome integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed.
+Negative numbers are not palindromic.
+<br><br>
+**Example:** <br>
+Input : **12121** <br>
+Output : ***True*** <br><br>
+Input : **123** <br>
+Output : ***False*** 
+<br><br>
+[Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/FizzBuzz.cpp)
+<br>
+<br>
+<br>
+
+
 ### Heaps And Maps
 - - -
 
