@@ -7,15 +7,21 @@ Collection of solution for problems on [InterviewBit](https://www.interviewbit.c
 
 * [Arrays](#arrays)  
 * [Math](#math)
-* [Heaps And Maps](#heaps-and-maps)
-* [BackTracking](#backtracking)
 * [Binary Search](#binary-search)
-* [Bit Manipulation](#bit-manipulation)
-* [Hashing](#hashing)
-* [Linked List](#linked-list)
-* [Stacks and Queues](#stacks-and-queues)
 * [Strings](#strings)
+* [Bit Manipulation](#bit-manipulation)
 * [Two Pointers](#two-pointers)
+* [Linked List](#linked-list)
+* [Stacks And Queues](#stacks-and-queues)
+* [BackTracking](#backtracking)
+* [Hashing](#hashing)
+* [Heaps And Maps](#heaps-and-maps)
+* [Trees](#trees)
+* [Dynamic Programming](#dynamic-programming)
+* [Greedy](#greedy)
+* [Graphs](#graphs)
+
+
 
 
 ### Arrays
@@ -321,6 +327,30 @@ Output : ***GCD(m, n) = 3***
 <br>
 
 
+### Binary Search 
+- - -
+
+### Strings
+---
+
+### Bit Manipulation
+- - -
+
+### Two Pointers
+---
+
+### Linked List
+---
+
+### Stacks and Queues
+---
+
+### BackTracking
+- - -
+
+### Hashing
+---
+
 ### Heaps And Maps
 - - -
 
@@ -339,28 +369,16 @@ will result in <br> ***1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20***
 <br>
 <br>
 
-### BackTracking
-- - -
-
-### Binary Search 
-- - -
-
-### Bit Manipulation
-- - -
-
-### Hashing
+### Trees
 ---
 
-### Linked List
+### Dynamic Programming
 ---
 
-### Stacks and Queues
+### Greedy
 ---
 
-### Strings
----
-
-### Two Pointers
+### Graphs
 ---
 
 
