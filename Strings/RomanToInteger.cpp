@@ -69,5 +69,32 @@ int Solution::romanToInt(string A)
 }
 
 
+# OR
+
+
+int Solution::romanToInt(string s) 
+{
+    int res = 0;
+    
+    int size = s.size();
+
+    for (int i = 0; i < size; i++) {
+
+        // Does lesser value precede higher value ? 
+
+        if (i < (size - 1) && val(s[i]) < val(s[i+1])) 
+        {
+            res -= romanCharToInt(s[i]);
+        } 
+        else
+        {
+            res += romanCharToInt(s[i]);
+        }
+    }
+
+    return res;
+}
+
+
 
 
