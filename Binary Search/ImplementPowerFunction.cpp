@@ -23,8 +23,6 @@ Output : 2
 */
 
 
-
-
 class Solution 
 {
     public:
@@ -54,6 +52,7 @@ class Solution
             }
             
             if (ans < 0) ans = (ans + p) % p;
+            
             return ans;
         }
 };
