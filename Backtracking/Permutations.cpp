@@ -59,3 +59,6 @@ vector<vector<int> > Solution::permute(vector<int> &A)
 }
 
 
+// O(n*n!)
+
+
