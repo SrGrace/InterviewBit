@@ -17,6 +17,37 @@ Do not allocate extra space for another array, you must do this in place with co
 */
 
 
+# General Soln
+
+
+int Solution::removeDuplicates(vector<int> &A) 
+{
+    // Do not write main() function.
+    // Do not read input, instead use the arguments to the function.
+    // Do not print the output, instead return values as specified
+    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+
+    if(A.size() == 0) return 0;
+
+    int i = 0;
+
+    for(auto j=0; j<A.size(); j++)
+    {
+        if(i < 1 || A[j] > A[i-1])
+        {
+            A[i++] = A[j];
+        }
+    }
+
+    return i;
+
+}
+
+
+
+// OR
+
+
 
 int Solution::removeDuplicates(vector<int> &A) 
 {
