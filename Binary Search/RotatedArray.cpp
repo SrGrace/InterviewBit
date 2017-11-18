@@ -23,41 +23,33 @@ then minimum element is A[x].
 */
 
 
+# With or Without duplicates
 
-int find_rot_cnt(const vector<int> &A)
-{
-    int l = 0, r = A.size()-1;
-    
-    while(l  <= r)
+
+class Solution {
+public:
+    int pivot(vector<int> &A)
     {
-        if(A[l] <= A[r]) return l;  // case 1: if the whole array is completly sorted already, i.e no rotation
+        int n = A.size();
+        int l = 0, r = n-1;
         
-        int mid = l + (r - l)/2;
-        
-        int nxt = (mid + 1)%A.size(), prev = (mid + A.size() - 1)%A.size();
-        
-        if(A[mid] <= A[nxt] && A[mid] <= A[prev])   // case 2:  11 12 15 '2' 3 4 5 :   15 > 2 < 3 
-            return mid;
+        while(l < r)
+        {
+            int mid = l + (r-l)/2;
             
-        else if(A[mid] <= A[r]) 
-            r= mid - 1;
-            
-        else if(A[mid] >= A[l])
-            l = mid + 1;
+            if(A[mid] < A[r])
+                r = mid;
+            else if(A[mid] > A[r])
+                l = mid+1;
+            else 
+                r--;  // eliminate duplicates
+        }
+        return l;
     }
-    return -1;
-}
-
-int Solution::findMin(const vector<int> &A) 
-{
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-
-    return A[find_rot_cnt(A)];
-    
-}
-
+    int findMin(vector<int>& A) 
+    {
+        return A[pivot(A)];
+    }
+};
 
 
