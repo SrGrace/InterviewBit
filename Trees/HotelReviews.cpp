@@ -117,11 +117,10 @@ vector<int> Solution::solve(string A, vector<string> &B)
         insert(tmp, st);
     }
     
-    int maxCnt = INT_MIN, minCnt = INT_MAX;
+    int cnt = 0, cnt2 = 0, maxCnt = INT_MIN, minCnt = INT_MAX;
     for(auto i=0; i<B.size(); i++)
     {
         string s2 = B[i];
-        int cnt = 0, cnt2 = 0;
         for(auto j=0; j<s2.size();j++)
         {
             if(s2[j] == '_')
