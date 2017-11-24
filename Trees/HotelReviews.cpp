@@ -96,12 +96,12 @@ int search(trie *A, string s)
 void convert(string &str)
 {
     //Convert _ to spaces
-	for(int i=0; i<str.size(); i++)	
-	{
-	    if(str[i] == '_')	
-	        str[i] = ' ';
-	}
-	return;
+    for(int i=0; i<str.size(); i++)	 
+    {
+	if(str[i] == '_')	
+	     str[i] = ' ';
+    }
+    return;
 }
 
 bool cmp(const pair<int, int>& a, const pair<int, int>& b)
@@ -109,7 +109,7 @@ bool cmp(const pair<int, int>& a, const pair<int, int>& b)
     if(a.first == b.first) 
         return a.second < b.second;
     
-	return a.first > b.first;	
+    return a.first > b.first;	
 }
 
 vector<int> Solution::solve(string A, vector<string> &B)
