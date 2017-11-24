@@ -121,31 +121,31 @@ vector<int> Solution::solve(string A, vector<string> &B)
     
     convert(A);
     
-	string word;
-	
-	stringstream ss;
-	
-	ss<<A;
-	
-	while(ss>>word)	
-	    insert(root, word);
+    string word;
 
-	int cnt;
-	for(int i=0; i<B.size(); i++)
+    stringstream ss;
+
+    ss<<A;
+
+    while(ss>>word)	
+        insert(root, word);
+	
+    int cnt;
+    for(int i=0; i<B.size(); i++)
+    {
+	convert(B[i]);
+	ss.clear();
+
+	ss<<B[i];
+
+	cnt = 0;
+	while(ss>>word)	
 	{
-		convert(B[i]);
-		ss.clear();
-		
-		ss<<B[i];
-		
-		cnt = 0;
-		while(ss>>word)	
-		{
-		    if(search(root, word))	
-		        cnt++;
-		}
-		v1.push_back({cnt, i});
+	    if(search(root, word))	
+		cnt++;
 	}
+	v1.push_back({cnt, i});
+    }
     
     sort(v1.begin(), v1.end(), cmp);
     
