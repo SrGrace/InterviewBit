@@ -50,13 +50,13 @@ Here, sorted reviews are ["cool_wifi_speed", "water_is_cool", "cold_ice_drink"]
 struct trie
 {
     int isLeaf;
-    trie *child[256];
+    trie *child[26];
 };
 
 trie *getNode()
 {
     trie *node = new trie();
-    for(int i=0; i<256; i++)
+    for(int i=0; i<26; i++)
         node->child[i] = NULL;
     node->isLeaf = 0;
     
@@ -93,67 +93,67 @@ int search(trie *A, string s)
     return (curr && curr->isLeaf);
 }
 
+void convert(string &str)
+{
+    //Convert _ to spaces
+	for(int i=0; i<str.size(); i++)	
+	{
+	    if(str[i] == '_')	
+	        str[i] = ' ';
+	}
+	return;
+}
+
+bool cmp(const pair<int, int>& a, const pair<int, int>& b)
+{
+    if(a.first == b.first) 
+        return a.second < b.second;
+    
+	return a.first > b.first;	
+}
 
 vector<int> Solution::solve(string A, vector<string> &B)
 {
     vector<int > v;
-    map<int, int> mp;
+    vector<pair<int, int>> v1;
+
+    trie *root = getNode();
     
-    trie *root = new trie();
+    convert(A);
     
-    vector<string> s(10002), s1(10002);
+	string word;
+	
+	stringstream ss;
+	
+	ss<<A;
+	
+	while(ss>>word)	
+	    insert(root, word);
+
+	int cnt;
+	for(int i=0; i<B.size(); i++)
+	{
+		convert(B[i]);
+		ss.clear();
+		
+		ss<<B[i];
+		
+		cnt = 0;
+		while(ss>>word)	
+		{
+		    if(search(root, word))	
+		        cnt++;
+		}
+		v1.push_back({cnt, i});
+	}
     
-    int cnt1 = 0;
-    for(int i=0; i<A.size(); i++)
-    {
-        if(A[i] == '_')
-            cnt1++;
-        else
-            s[cnt1] += A[i];
-    }
-    for(auto st : s)
-    {
-        trie *tmp = root;
-        insert(tmp, st);
-    }
+    sort(v1.begin(), v1.end(), cmp);
     
-    int cnt = 0, cnt2 = 0, maxCnt = INT_MIN, minCnt = INT_MAX;
-    for(auto i=0; i<B.size(); i++)
-    {
-        string s2 = B[i];
-        for(auto j=0; j<s2.size();j++)
-        {
-            if(s2[j] == '_')
-                cnt2++;
-            else
-                s1[cnt2] += s2[j];
-        }
-        for(auto st : s1)
-        {
-            trie *tmp = root;
-            if(search(root, st))
-                cnt++;
-        }
-        if(cnt > maxCnt)
-            maxCnt = cnt;
-        if(cnt < minCnt)
-            minCnt = cnt;
-            
-        mp.insert({cnt, i});
-            
-    }
-    
-    for(int i=maxCnt; i>=minCnt; --i)
-    {
-        if(mp.find(i) != mp.end())
-            v.push_back(mp[i]);
-    }
+    for(int i=0; i<B.size(); i++)
+        v.push_back(v1[i].second);
     
     return v;
+    
 }
-
-
-// Partially correct
-
 
 
