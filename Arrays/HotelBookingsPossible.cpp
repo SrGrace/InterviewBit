@@ -48,7 +48,8 @@ class Solution {
         int N = arrive.size();
         
         vector<pair<int, int> > vec;
-        for(int i = 0; i < N; ++i) {
+        for(int i = 0; i < N; ++i) 
+        {
             vec.push_back(make_pair(arrive[i], 1));
             vec.push_back(make_pair(depart[i], 0));
         }
@@ -57,11 +58,15 @@ class Solution {
         
         int curActive = 0;
         int maxAns = 0;
-        for (int i = 0; i < vec.size(); i++) {
-           if (vec[i].second == 1) { // arrival
+        for (int i = 0; i < vec.size(); i++)
+        {
+            if (vec[i].second == 1) 
+            { // arrival
                curActive++;
                maxAns = max(maxAns, curActive);
-            } else {
+            } 
+            else 
+            {
                 curActive--;
             }
         }
