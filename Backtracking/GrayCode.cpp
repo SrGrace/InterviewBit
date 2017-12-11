@@ -6,7 +6,8 @@ https://www.interviewbit.com/problems/gray-code/
 
 The gray code is a binary numeral system where two successive values differ in only one bit.
 
-Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
+Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence 
+must begin with 0.
 
 For example, given n = 2, return [0,1,3,2]. Its gray code sequence is:
 
@@ -31,7 +32,7 @@ vector<int> Solution::grayCode(int A)
     vector<int> res;
     res.push_back(0);
     
-    for(auto i=0; i<A;i++)
+    for(auto i=0; i<A; i++)
     {
         int sz = res.size();
         for(auto j=sz-1; j>=0; j--)
