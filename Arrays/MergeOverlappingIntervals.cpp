@@ -42,13 +42,14 @@ vector<Interval> Solution::merge(vector<Interval> &A)
 
     vector<Interval> res;
     
-    if(A.size() == 0) return res;
+    if(A.size() == 0) 
+        return res;
     
     sort(A.begin(), A.end(), comp);
     
     res.push_back(A[0]);
     
-    for(int i=0;i<A.size();++i)
+    for(int i=0; i<A.size(); ++i)
     {
         if(res.back().end >= A[i].start)
             res.back().end = max(res.back().end, A[i].end);
@@ -60,6 +61,5 @@ vector<Interval> Solution::merge(vector<Interval> &A)
     return res;
     
 }
-
 
 
