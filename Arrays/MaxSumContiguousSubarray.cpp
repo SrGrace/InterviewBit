@@ -22,14 +22,15 @@ int Solution::maxSubArray(const vector<int> &A)
     // Do not print the output, instead return values as specified
     // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
 
-    int ms=A[0],me=A[0];
+    int ms = A[0], me = A[0];
     
-    for(int i=1;i<A.size();i++)
+    for(int i=1; i<A.size(); i++)
     {
-        me=max(A[i], me+A[i]);
-        ms=max(ms, me);
+        me = max(A[i], me+A[i]);
+        
+        ms = max(ms, me);
     }
+    
     return ms;
 }
-
 
