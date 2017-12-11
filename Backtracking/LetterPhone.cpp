@@ -23,7 +23,6 @@ Make sure the returned strings are lexicographically sorted.
 
 # method 1 : Itrerative
 
-
 vector<string> Solution::letterCombinations(string A)
 {
     // Do not write main() function.
@@ -58,9 +57,8 @@ vector<string> Solution::letterCombinations(string A)
 }
 
 
+
 # method 2 : Recursive
-
-
 
 string charMap[10] = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
