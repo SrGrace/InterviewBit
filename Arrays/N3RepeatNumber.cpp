@@ -42,7 +42,7 @@ int Solution::repeatedNumber(const vector<int> &A)
     // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
 
     int n = A.size();
-    int cnt1=0, cnt2=0, x=0, y=1;
+    int cnt1 = 0, cnt2 = 0, x = 0, y = 1;
     
     for(auto it : A)
     {
