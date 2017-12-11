@@ -18,28 +18,46 @@ So, we return 5.
 
 */
 
+# Approach
+
+/*
+
+f(i, j) = |A[i] - A[j]| + |i - j| can be written in 4 ways (Since we are looking at max value, we don’t even care if the value 
+becomes negative as long as we are also covering the max value in some way).
+
+(A[i] + i) - (A[j] + j)
+-(A[i] - i) + (A[j] - j) 
+(A[i] - i) - (A[j] - j) 
+(-A[i] - i) + (A[j] + j)      //  = -(A[i] + i) + (A[j] + j)
+
+*/
+
+
 
 int Solution::maxArr(vector<int> &A) 
 {
     assert(!A.empty());
     
-    int m1=INT_MIN, m2=INT_MIN, m3=INT_MIN, m4=INT_MIN;
-    for(int i=0;i<A.size();i++)
+    int m1 = INT_MIN, m2 = INT_MIN, m3 = INT_MIN, m4 = INT_MIN;
+    
+    for(int i=0; i<A.size(); i++)
     {
-        m1=max(m1, A[i]+i);
-        m2=max(m2, -A[i]+i);
-        m3=max(m3, A[i]-i);
-        m4=max(m4, -A[i]-i);
+        m1 = max(m1, A[i]+i);
+        m2 = max(m2, -A[i]+i);
+        m3 = max(m3, A[i]-i);
+        m4 = max(m4, -A[i]-i);
     }
-    int ans=INT_MIN;
+    
+    int ans = INT_MIN;
    
-    for(int i=0;i<A.size();i++)
+    for(int i=0; i<A.size(); i++)
     {
-        ans=max(ans, m1 - A[i]-i);
-        ans=max(ans, m2 + A[i]-i);
-        ans=max(ans, m3 - A[i]+i);
-        ans=max(ans, m4 + A[i]+i);
+        ans = max(ans, m1 - A[i]-i);
+        ans = max(ans, m2 + A[i]-i);
+        ans = max(ans, m3 - A[i]+i);
+        ans = max(ans, m4 + A[i]+i);
     }
+    
     return ans;
 }
 
