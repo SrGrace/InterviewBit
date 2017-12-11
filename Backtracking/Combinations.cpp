@@ -33,8 +33,6 @@ If n = 4 and k = 2, a solution is:
 
 
 
-
-
 void comb(int n, int k, int st, vector<vector<int> > &v, vector<int> v1)
 {
     if(k == 0)
@@ -65,7 +63,5 @@ vector<vector<int> > Solution::combine(int n, int k)
     
     return v;
 }
-
-
 
 
