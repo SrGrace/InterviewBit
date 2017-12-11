@@ -40,7 +40,7 @@ int Solution::coverPoints(vector<int> &X, vector<int> &Y)
         x = abs(X[i]-X[i-1]);
         y = abs(Y[i]-Y[i-1]);
      
-        steps += max(x,y);
+        steps += max(x, y);
     }
  
     return steps;
