@@ -51,17 +51,20 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     
     intervals.push_back(newInterval);
     
-    if (intervals.size() == 0){return res;}
+    if (intervals.size() == 0)
+    {
+        return res;
+    }
     
-    std::sort(intervals.begin(),intervals.end(),cmp);
+    std::sort(intervals.begin(), intervals.end(),cmp);
     
     res.push_back(intervals[0]);
     
-    for (int i=1;i<intervals.size();i++)
+    for (int i=1; i<intervals.size(); i++)
     {
         if (res.back().end >= intervals[i].start)
         {
-            res.back().end = max(res.back().end,intervals[i].end);
+            res.back().end = max(res.back().end, intervals[i].end);
         }
         
         else
@@ -73,8 +76,4 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     return res;
     
 }
-
-
-
-
 
