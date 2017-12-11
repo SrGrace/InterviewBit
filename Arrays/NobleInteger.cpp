@@ -10,17 +10,18 @@ If such an integer is found return 1 else return -1.
 */
 
 
+# 1st method
+
 
 int Solution::solve(vector<int> &A) 
 {
-    int n = A.size();
-    
-    /*
     int p = 0, cnt = 0;
     
     for(auto it : A)
     {
-        if(it > p) cnt++;
+        if(it > p)
+            cnt++;
+        
         if(cnt != p) 
         {
             cnt = 0;
@@ -30,14 +31,26 @@ int Solution::solve(vector<int> &A)
     
     for(auto it : A)
     {
-        if(it > p) cnt++;
+        if(it > p) 
+            cnt++;
     }
     
-    if(cnt == p) return 1;
-    else return -1;
-    */
+    if(cnt == p) 
+        return 1;
     
+    else 
+        return -1;
     
+}
+
+
+# 2nd method
+
+
+int Solution::solve(vector<int> &A) 
+{
+    int n = A.size();
+     
     std::sort(A.begin(), A.end());
     
     for(auto i=0; i<n-1; i++)
@@ -53,6 +66,5 @@ int Solution::solve(vector<int> &A)
         return 1;
     return -1;
 }
-
 
 
