@@ -19,19 +19,13 @@ Another possible answer : [4, 1, 3, 2]
  */
 
 
-
-
+# 1st method
 
 vector<int> Solution::wave(vector<int> &A) 
 {
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-
-    //bool flg=true;
+    bool flg = true;
     
-    /*for(auto i=0;i<A.size()-1;i++)
+    for(auto i=0; i<A.size()-1; i++)
     {
         if(!flg) // <= relation
         {
@@ -44,7 +38,20 @@ vector<int> Solution::wave(vector<int> &A)
                 swap(A[i], A[i+1]);
         }
         flg = !flg;
-    }*/
+    }
+    
+    return A;
+}
+
+
+# 2nd method
+
+vector<int> Solution::wave(vector<int> &A) 
+{
+    // Do not write main() function.
+    // Do not read input, instead use the arguments to the function.
+    // Do not print the output, instead return values as specified
+    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
     
     std::sort(A.begin(), A.end());
     
@@ -55,3 +62,4 @@ vector<int> Solution::wave(vector<int> &A)
     
     return A;
 }
+
