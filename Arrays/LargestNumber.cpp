@@ -16,7 +16,8 @@ Note: The result may be very large, so you need to return a string instead of an
 
 
 
-bool cmpr(string x, string y){
+bool cmpr(string x, string y)
+{
     return x+y > y+x;
 }
 
@@ -35,7 +36,7 @@ string Solution::largestNumber(const vector<int> &A)
     {
         v.push_back(to_string(A[i]));
         
-        if(A[i]!=0) 
+        if(A[i] != 0) 
         {
             zero=false;
         }
@@ -45,18 +46,16 @@ string Solution::largestNumber(const vector<int> &A)
     
     sort(v.begin(), v.end(), cmpr);
     
-    string s="";
+    string s = "";
     
-    for(auto it:v)
+    for(auto it : v)
     {
-        s+=it;
+        s += it;
     }
     
     return s;
     
 }
-
-
 
 
 
