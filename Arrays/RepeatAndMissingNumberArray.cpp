@@ -48,8 +48,8 @@ vector<int> Solution::repeatedNumber(const vector<int> &A)
     y = (sum + sumSq/sum)/2;
     x = y-sum;
     
-    res.push_back(x);  
-    res.push_back(y);
+    res.push_back(x);   // repeat
+    res.push_back(y);   // missing
     
     return res;
 }
