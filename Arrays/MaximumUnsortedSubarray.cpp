@@ -28,6 +28,19 @@ In the above example(Input 1), if we sort the subarray A1, A2, then whole array 
 
 
 
+# Soln Approach
+
+/*
+
+Assume that Al, …, Ar is the minimum-unsorted-subarray which is to be sorted.
+then min(Al, …, Ar) >= max(A0, …, Al-1)
+and max(Al, …, Ar) <= min(Ar+1, …, AN-1)
+
+How would you solve now?
+
+*/
+
+
 
 vector<int> Solution::subUnsort(vector<int> &A) 
 {
