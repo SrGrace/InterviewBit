@@ -33,26 +33,25 @@ vector<int> Solution::repeatedNumber(const vector<int> &A)
     // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
 
     vector<int> res;
-    long long n=A.size(), x=0, y=0;
+    long long n = A.size(), x = 0, y = 0;
     
-    long long sum=(n*(n+1))/2;
+    long long sum = (n*(n+1))/2;
     
-    long long sumSq=(n*(n+1)*(2*n+1))/6;
+    long long sumSq = (n*(n+1)*(2*n+1))/6;
     
-    for(int i=0;i<n;i++)
+    for(int i=0; i<n; i++)
     {
-        sum-=(long long)A[i];
-        sumSq-=(long long)A[i]*(long long)A[i];
+        sum -= (long long)A[i];
+        sumSq -= (long long)A[i]*(long long)A[i];
     }
     
-    y=(sum+sumSq/sum)/2;
-    x=y-sum;
+    y = (sum + sumSq/sum)/2;
+    x = y-sum;
     
-    res.push_back(x); res.push_back(y);
+    res.push_back(x);  
+    res.push_back(y);
+    
     return res;
 }
-
-
-
 
 
