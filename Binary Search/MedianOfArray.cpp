@@ -149,7 +149,7 @@ double Solution::findMedianSortedArrays(const vector<int> &A, const vector<int> 
     
     if(m < n) return findMedianSortedArrays(B, A);
     
-    int l=0, h=2*n;
+    int l = 0, h = 2*n;
     
     while(l <= h)
     {
