@@ -21,7 +21,7 @@ int bin_search(const vector<int> &A, int B, bool flgfst)
     int start = 0, end = A.size()-1;
     int pos = -1;
     
-    while(start<=end)
+    while(start <= end)
     {
         int mid = start + (end - start)/2;
         if (A[mid] == B) 
@@ -56,10 +56,10 @@ int Solution::findCount(const vector<int> &A, int B)
         return 0;
 
     int lstidx = bin_search(A, B, false);
+    
     return lstidx - fstidx + 1;
     
 }
-
 
 
 
