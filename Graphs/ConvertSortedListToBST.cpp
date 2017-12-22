@@ -80,26 +80,51 @@ TreeNode* Solution::sortedListToBST(ListNode* A) {
 
 # 2nd method ( O(n) ) (bottom-up)
 
-// find lenght of the list
-int cnt(ListNode
+/**
+ * Definition for binary tree
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 
-TreeNode* toBst(ListNode *head, ListNode *tail)
+// find lenght of the list
+int cnt(ListNode *head)
 {
-    if(head == tail)
-        return NULL;
-        
-    ListNode *slow = head, *fast = head;
-    
-    while(fast != tail && fast->next != tail)
+    int sz = 0;
+    while(head)
     {
-        fast = fast->next->next;
-        slow = slow->next;
+       sz++;
+       head = head->next;
     }
+    return sz;
+}
+
+ListNode *list;
+
+TreeNode* toBst(int n)
+{
+    if(n == 0)
+        return NULL;
+ 
+    TreeNode *root = new TreeNode(0);
     
-    TreeNode *root = new TreeNode(slow->val);
+    root->left = toBst(n/2);
     
-    root->left = toBst(head, slow);
-    root->right = toBst(slow->next, tail);
+    root->val = list->val;
+    list = list->next;
+    
+    root->right = toBst(n - n/2 - 1);
     
     return root;
 }
@@ -112,11 +137,12 @@ TreeNode* Solution::sortedListToBST(ListNode* A) {
 
     if(!A)
         return NULL;
+        
+    list = A;
     
-    return toBst(A, NULL);
+    return toBst(cnt(A));
     
 }
-
 
 
 
