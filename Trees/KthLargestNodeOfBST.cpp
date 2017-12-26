@@ -33,21 +33,22 @@ int height(treeNode *root)
 treeNode* find_kth_largest(treeNode* root, int k) 
 {
         
-    if(root)
-    {
-        int rh = height(root->right);
-        if(rh+1 == k)
-            return root;
-            
-        else if(k < rh)
-        {
-            return find_kth_largest(root->right, k);
-        }
-        else
-            return find_kth_largest(root->left, k-rh-1);
-    }
-    return NULL;
-        
+    if(!root)
+        return NULL;
+    
+    int rh = 0;
+    if(root->right)
+        rh  = height(root->right);
+       
+    if(rh+1 == k)
+        return root;
+
+    else if(k < rh)
+        return find_kth_largest(root->right, k);
+    
+    else
+        return find_kth_largest(root->left, k-rh-1);
+  
 }
 
 
