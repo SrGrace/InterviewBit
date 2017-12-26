@@ -7,6 +7,7 @@ int level_with_max_sum(treeNode *root)
       
     std::queue<treeNode*>q ;
     q.push(root);
+    q.push(NULL);
     
     int sum = 0, max_sum = 0, level = 0, max_level = 0;    
     while(!q.empty())
