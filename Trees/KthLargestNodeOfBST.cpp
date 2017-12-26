@@ -43,7 +43,7 @@ treeNode* find_kth_largest(treeNode* root, int k)
     if(rh+1 == k)
         return root;
 
-    else if(k < rh)
+    else if(k <= rh)
         return find_kth_largest(root->right, k);
     
     else
