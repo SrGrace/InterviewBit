@@ -22,12 +22,12 @@ find 2nd largest node ==> 8
 
 
 
-int height(treeNode *root)
+int tree_size(treeNode *root)
 {
     if(!root)
         return 0;
     
-    return 1 + max(height(root->left), height(root->right));
+    return tree_size(root->left) + 1 + tree_size(root->right);
 }
 
 treeNode* find_kth_largest(treeNode* root, int k) 
@@ -38,7 +38,7 @@ treeNode* find_kth_largest(treeNode* root, int k)
     
     int rh = 0;
     if(root->right)
-        rh  = height(root->right);
+        rh  = tree_size(root->right);
        
     if(rh+1 == k)
         return root;
