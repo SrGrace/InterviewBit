@@ -50,7 +50,7 @@ Please note that LCA for nodes 5 and 4 is 5.
 treeNode* find_lca(treeNode* root, int a, int b) 
 {
     /* reach the end of the tree . return 0 */
-    if (root == NULL) 
+    if(!root) 
         return NULL;
     
     /*Initialising temporary left and right pointers */
@@ -64,11 +64,11 @@ treeNode* find_lca(treeNode* root, int a, int b)
     right = find_lca(root->right, a, b);    /* Find LCA in right subtree */
 
     /* If nodes found in both the subtrees, root is there Least common ancestor */
-    if (left != NULL && right != NULL) 
+    if (left && right) 
         return root;
     
     else /* If one of the subtree has values (a or b or both), return the node */
-        return (left != NULL ? left : right);
+        return (left) ? left : right;
 }
 
 
