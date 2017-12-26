@@ -14,6 +14,12 @@ delete_at_pos(Head,3) ==> 1->2->4
 # 1st method (non-recursive)
 
 
+listNode
+{
+    int value;                 /* value of the node */
+    listNode* next;     /* points to the next linked-list node */
+};
+
 listNode* delete_at_pos(listNode* head, int n)
 {
     if(!head)
