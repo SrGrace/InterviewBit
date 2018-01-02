@@ -62,11 +62,12 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
     
     while(!pq.empty())
     {
-        curr->next=pq.top();
+        curr->next = pq.top();
         pq.pop();
         
-        curr=curr->next;
-        if(curr->next) pq.push(curr->next);
+        curr = ->next;
+        if(curr->next) 
+           pq.push(curr->next);
     }
     
     return head.next;
