@@ -52,11 +52,12 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
     priority_queue<ListNode*, vector<ListNode*>, cmpr> pq;
     
     ListNode head(0);
-    ListNode *curr=&head;
+    ListNode *curr = &head;
     
-    for(int i=0;i<A.size();i++)
+    for(int i=0; i<A.size(); i++)
     {
-        if(A[i]) pq.push(A[i]);
+        if(A[i]) 
+           pq.push(A[i]);
     }
     
     while(!pq.empty())
@@ -82,8 +83,11 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
 
 ListNode *merge2lists(ListNode *l1, ListNode *l2)
 {
-    if(l1==nullptr) return l2;
-    if(l2==nullptr) return l1;
+    if(l1 == nullptr) 
+       return l2;
+ 
+    if(l2 == nullptr) 
+       return l1;
  
     if(l1->val <= l2->val)
     {
@@ -119,4 +123,8 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
  
  
 }
+
+
+
+
 
