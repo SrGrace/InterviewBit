@@ -78,13 +78,13 @@ Your aim is to perform ATMOST one operation such that in final string number of 
 <br><br>
 **Example:** Given **S = 010**, 
 <br>
-Pair of [L, R] | Final string <br>
-______________ |_____________ <br>
-[1 1]          |      110  <br>
-[1 2]          |      100  <br>
-[1 3]          |      101  <br>
-[2 2]          |      000  <br>
-[2 3]          |      001  <br>
+|Pair of [L, R] | Final string |
+|-------------- |--------------|
+|[1 1]          |      110 |
+|[1 2]          |      100  |
+|[1 3]          |      101  |
+|[2 2]          |      000  |
+|[2 3]          |      001  |
 <br>
 
 We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return ***[1, 1]***.
