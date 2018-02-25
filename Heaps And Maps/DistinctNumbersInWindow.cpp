@@ -5,7 +5,8 @@ https://www.interviewbit.com/problems/distinct-numbers-in-window/
 
 You are given an array of N integers, A1, A2 ,…, AN and an integer K. Return the of count of distinct numbers in all windows of size K.
 
-Formally, return an array of size N-K+1 where i’th element in this array contains number of distinct elements in sequence Ai, Ai+1 ,…, Ai+k-1.
+Formally, return an array of size N-K+1 where i’th element in this array contains number of distinct elements in sequence 
+Ai, Ai+1 ,…, Ai+k-1.
 
 Note:
 
