@@ -65,7 +65,7 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
         curr->next = pq.top();
         pq.pop();
         
-        curr = ->next;
+        curr = curr->next;
         if(curr->next) 
            pq.push(curr->next);
     }
