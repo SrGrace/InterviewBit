@@ -32,7 +32,7 @@ will result in
  */
  
 
-# 1st method
+# 1st method (Using priority Queue) O(n*logk)
 
  
 struct cmpr {
@@ -75,7 +75,7 @@ ListNode* Solution::mergeKLists(vector<ListNode*> &A)
 
 
 
-# 2nd method
+# 2nd method (O(k*n))
 
 # The basic idea is really simple. We can merge first two lists and then push it back. 
 # Keep doing this until there is only one list left in vector. Actually,
