@@ -3,7 +3,6 @@
 https://www.interviewbit.com/problems/combinations/
 
 
-
 Given two integers n and k, return all possible combinations of k numbers out of 1 2 3 ... n.
 
 Make sure the combinations are sorted.
