@@ -19,7 +19,7 @@ Here are few examples.
 
 
 
-/ Pure Binary Search nothing else
+* Pure Binary Search nothing else
 
 
 
@@ -29,7 +29,7 @@ int Solution::searchInsert(vector<int> &A, int B) {
     // Do not print the output, instead return values as specified
     // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
 
-    int  l =0, r = A.size()-1;
+    int  l = 0, r = A.size()-1;
     
     while(l <= r)
     {
