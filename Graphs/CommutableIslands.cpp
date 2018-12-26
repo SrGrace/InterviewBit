@@ -7,7 +7,8 @@ There are n islands and there are many bridges connecting them. Each bridge has 
 
 We need to find bridges with minimal cost such that all islands are connected.
 
-It is guaranteed that input data will contain at least one possible scenario in which all islands are connected with each other.
+It is guaranteed that input data will contain at least one possible scenario in which all islands are connected with each 
+other.
 
 Example :
 Input
@@ -19,12 +20,13 @@ Input
          4 3 2
          1 3 10
          
-In this example, we have number of islands(n) = 4 . Each row then represents a bridge configuration. In each row first two numbers 
-represent the islands number which are connected by this bridge and the third integer is the cost associated with this bridge.
+In this example, we have number of islands(n) = 4 . Each row then represents a bridge configuration. In each row first two 
+numbers represent the islands number which are connected by this bridge and the third integer is the cost associated with 
+this bridge.
 
-In the above example, we can select bridges 1(connecting islands 1 and 2 with cost 1), 3(connecting islands 1 and 4 with cost 3), 
-4(connecting islands 4 and 3 with cost 2). Thus we will have all islands connected with the minimum possible cost(1+3+2 = 6). 
-In any other case, cost incurred will be more.
+In the above example, we can select bridges 1(connecting islands 1 and 2 with cost 1), 3(connecting islands 1 and 4 with 
+cost 3), 4(connecting islands 4 and 3 with cost 2). Thus we will have all islands connected with the minimum possible 
+cost(1+3+2 = 6). In any other case, cost incurred will be more.
 
 */
 
