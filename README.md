@@ -2,6 +2,12 @@
 
 Collection of solution for problems on [InterviewBit](https://www.interviewbit.com)
 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![InterviewBit](https://img.shields.io/badge/InterviewBit-purple)
+![GitHub Forks](https://img.shields.io/github/forks/SrGrace/InterviewBit?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/SrGrace/InterviewBit?style=social)
+![GitHub Contributors](https://img.shields.io/github/contributors/SrGrace/InterviewBit?style=social)
+
 ### Contents
 
 * [Arrays](#arrays)  
