@@ -30,7 +30,7 @@ Collection of solution for problems on [InterviewBit](https://www.interviewbit.c
 ### Arrays
 ---
 
-####[Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
+#### [Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
 <br>
 Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ). 
 The digits are stored such that the most significant digit is at the head of the list.
@@ -45,7 +45,7 @@ as 123 + 1 = 124.
 <br>
 <br>
 
-####[Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
+#### [Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
 <br>
 Given a read only array of n + 1 integers between 1 and n, find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
 <br><br>
@@ -58,7 +58,7 @@ Given a read only array of n + 1 integers between 1 and n, find one number that 
 <br>
 <br>
 
-####[First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
+#### [First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
 <br>
 Given an unsorted integer array, find the first missing positive integer.
 <br><br>
@@ -71,7 +71,7 @@ Given an unsorted integer array, find the first missing positive integer.
 <br>
 <br>
 
-####[flip](https://www.interviewbit.com/problems/flip/)
+#### [flip](https://www.interviewbit.com/problems/flip/)
 <br>
 You are given a binary string(i.e. with characters 0 and 1) S consisting of characters S1, S2, …, SN. In a single operation, you can choose two indices L and R such that 1 ≤ L ≤ R ≤ N and flip the characters SL, SL+1, …, SR. By flipping, we mean change character 0 to 1 and vice-versa.
 <br>
@@ -102,7 +102,7 @@ No operation can give us more than three 1s in final string. So, we return ***em
 <br>
 <br>
 
-####[Largest number](https://www.interviewbit.com/problems/largest-number/)
+#### [Largest number](https://www.interviewbit.com/problems/largest-number/)
 <br>
 Given a list of non negative integers, arrange them such that they form the largest number.
 <br><br>
@@ -115,7 +115,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 <br>
 <br>
 
-####[Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
+#### [Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
 <br>
 Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
 <br><br>
@@ -128,7 +128,7 @@ For this problem, return the maximum sum.
 <br>
 <br>
 
-####[Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
+#### [Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
 <br>
 Given a collection of intervals, merge all overlapping intervals.
 <br><br>
@@ -141,7 +141,7 @@ Given a collection of intervals, merge all overlapping intervals.
 <br>
 <br>
 
-####[Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
+#### [Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
 <br>
 You are in an infinite 2D grid where you can move in any of the 8 directions :
 <br>
@@ -165,7 +165,7 @@ It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move fr
 <br>
 <br>
 
-####[Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
+#### [Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
 <br>
 You are given a read only array of n integers from 1 to n.
 Each integer appears exactly once except A which appears twice and B which is missing. Return A and B.
@@ -181,7 +181,7 @@ Each integer appears exactly once except A which appears twice and B which is mi
 <br>
 <br>
 
-####[Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
+#### [Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
 <br>
 Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0. Do it in place.
 <br><br>
@@ -197,7 +197,7 @@ Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and c
 ### Math
 ---
 
-####[Rearrange Array](https://www.interviewbit.com/problems/rearrange-array/)
+#### [Rearrange Array](https://www.interviewbit.com/problems/rearrange-array/)
 <br>
 Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space.
 <br><br>
@@ -213,7 +213,7 @@ Rearrange a given array so that Arr[i] becomes Arr[Arr[i]] with O(1) extra space
 <br>
 <br>
 
-####[Excel Column Title](https://www.interviewbit.com/problems/excel-column-title/)
+#### [Excel Column Title](https://www.interviewbit.com/problems/excel-column-title/)
 <br>
 Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 <br><br>
@@ -231,7 +231,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 <br>
 <br>
 
-####[Excel Column Number](https://www.interviewbit.com/problems/excel-column-number/)
+#### [Excel Column Number](https://www.interviewbit.com/problems/excel-column-number/)
 <br>
 Given a column title as appears in an Excel sheet, return its corresponding column number.
 <br><br>
@@ -249,7 +249,7 @@ AB -> 28
 <br>
 <br>
 
-####[FizzBuzz](https://www.interviewbit.com/problems/fizzbuzz/)
+#### [FizzBuzz](https://www.interviewbit.com/problems/fizzbuzz/)
 <br>
 Given a positive integer N, print all the integers from 1 to N. But for multiples of 3 print “Fizz” instead of the number and for the multiples of 5 print “Buzz”. Also for number which are multiple of 3 and 5, prints “FizzBuzz”.
 <br><br>
@@ -262,7 +262,7 @@ Given a positive integer N, print all the integers from 1 to N. But for multiple
 <br>
 <br>
 
-####[Palindrome Integer](https://www.interviewbit.com/problems/palindrome-integer/)
+#### [Palindrome Integer](https://www.interviewbit.com/problems/palindrome-integer/)
 <br>
 Determine whether an integer is a palindrome. Do this without extra space. <br>
 A palindrome integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed.
@@ -279,7 +279,7 @@ Output : ***False***
 <br>
 <br>
 
-####[Power Of Two Integers](https://www.interviewbit.com/problems/power-of-two-integers/)
+#### [Power Of Two Integers](https://www.interviewbit.com/problems/power-of-two-integers/)
 <br>
 Given a positive integer which fits in a 32 bit signed integer, find if it can be expressed as A^P where P > 1 and A > 0. <br>
 A and P both should be integers.
@@ -294,7 +294,7 @@ as 2^2 = 4.
 <br>
 <br>
 
-####[Prime Sum](https://www.interviewbit.com/problems/Prime-Sum/)
+#### [Prime Sum](https://www.interviewbit.com/problems/Prime-Sum/)
 <br>
 Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number.
 <br><br>
@@ -313,7 +313,7 @@ If a < c OR a==c AND b < d.
 <br>
 <br>
 
-####[Greatest Common Divisor](https://www.interviewbit.com/problems/greatest-common-divisor/)
+#### [Greatest Common Divisor](https://www.interviewbit.com/problems/greatest-common-divisor/)
 <br>
 Given 2 non negative integers m and n, find gcd(m, n). <br>
 GCD of 2 integers m and n is defined as the greatest integer g such that g is a divisor of both m and n.
@@ -358,7 +358,7 @@ Output : ***GCD(m, n) = 3***
 ### Heaps And Maps
 - - -
 
-####[Merge K Sorted Lists](https://www.interviewbit.com/problems/merge-k-sorted-lists/)
+#### [Merge K Sorted Lists](https://www.interviewbit.com/problems/merge-k-sorted-lists/)
 <br>
 Merge k sorted linked lists and return it as one sorted list.
 <br><br>
