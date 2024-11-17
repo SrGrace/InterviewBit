@@ -40,6 +40,7 @@ as 123 + 1 = 124.
 <br><br>
 **Note**: The result may be very large, so you need to return a string instead of an integer.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/AddOneToNumber.cpp)
 <br>
 <br>
@@ -53,6 +54,7 @@ Given a read only array of n + 1 integers between 1 and n, find one number that 
 <br><br>
 **Note**: If there are multiple possible answers ( like in the sample case above ), output any one.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/FindDuplicateInArray.cpp)
 <br>
 <br>
@@ -66,6 +68,7 @@ Given an unsorted integer array, find the first missing positive integer.
 <br><br>
 **Note**: Your algorithm should run in O(n) time and use constant space.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/FirstMissingInteger.cpp)
 <br>
 <br>
@@ -97,6 +100,7 @@ We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. 
 <br>
 No operation can give us more than three 1s in final string. So, we return ***empty array []***.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/Flip.cpp)
 <br>
 <br>
@@ -110,6 +114,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 <br><br>
 **Note:** The result may be very large, so you need to return a string instead of an integer.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/LargestNumber.cpp)
 <br>
 <br>
@@ -123,6 +128,7 @@ Find the contiguous subarray within an array (containing at least one number) wh
 <br><br>
 For this problem, return the maximum sum.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/MaxSumContiguousSubarray.cpp)
 <br>
 <br>
@@ -136,6 +142,7 @@ Given a collection of intervals, merge all overlapping intervals.
 <br><br>
 **Note:** Make sure the returned intervals are sorted.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/MergeOverlappingIntervals.cpp)
 <br>
 <br>
@@ -160,6 +167,7 @@ You are given a sequence of points and the order in which you need to cover the 
 <br>
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/MinStepsInInfiniteGrid.cpp)
 <br>
 <br>
@@ -176,6 +184,7 @@ Each integer appears exactly once except A which appears twice and B which is mi
 <br><br>
 **Example:** For ***[3, 1, 2, 5, 3]*** return ***[3, 4]***
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/RepeatAndMissingNumberArray.cpp)
 <br>
 <br>
@@ -189,6 +198,7 @@ Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and c
 <br><br>
 **Note:** Try to minimize the space and time complexity.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Arrays/SetMatrixZeros.cpp)
 <br>
 <br>
@@ -226,6 +236,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 27 -> AA <br>
 28 -> AB  
 <br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnTitle.cpp)
 <br>
 <br>
@@ -244,6 +255,7 @@ Z -> 26  <br>
 AA -> 27  <br>
 AB -> 28   
 <br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/ExcelColumnNumber.cpp)
 <br>
 <br>
@@ -257,6 +269,7 @@ Given a positive integer N, print all the integers from 1 to N. But for multiple
 <br><br>
 **Note:**  Instead of printing the answer, you have to return it as list of strings.
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/FizzBuzz.cpp)
 <br>
 <br>
@@ -274,6 +287,7 @@ Output : ***True*** <br><br>
 Input : **123** <br>
 Output : ***False*** 
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PalindromeInteger.cpp)
 <br>
 <br>
@@ -289,6 +303,7 @@ Input : **4** <br>
 Output : ***True*** <br>
 as 2^2 = 4. 
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PowerOfTwoIntegers.cpp)
 <br>
 <br>
@@ -308,6 +323,7 @@ and [c,d] is another solution with c <= d, then <br>
 [a, b] < [c, d] <br>
 If a < c OR a==c AND b < d. 
 <br><br>
+ 
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/PrimeSum.cpp)
 <br>
 <br>
@@ -325,6 +341,7 @@ Output : ***GCD(m, n) = 3***
 <br><br>
 **Note:** DO NOT USE LIBRARY FUNCTIONS
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Math/greatestCommonDivisor.cpp)
 <br>
 <br>
@@ -368,6 +385,7 @@ Merge k sorted linked lists and return it as one sorted list.
 3 -> 8 -> 9** <br>
 will result in <br> ***1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20***
 <br><br>
+
 [Solution](https://github.com/SrGrace/InterviewBit/blob/master/Heaps%20And%20Maps/MergeKSortedLists.cpp)
 <br>
 <br>
