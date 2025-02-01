@@ -63,19 +63,19 @@ class Solution:
     def solve(self, A, B):
         import heapq
         max_heap = [-a for a in A]
-        heapq.heapify(max_heap)
+        heapq.heapify(max_heap) # O(n)
         
         profit = 0
-        for _ in range(B):
+        for _ in range(B): # O(B)
             # get max seat
-            max_seat = -heapq.heappop(max_heap)
+            max_seat = -heapq.heappop(max_heap) # O(logn)
             
             # add to profit
             profit += max_seat
             
             # decrease max seat
             if max_seat - 1 > 0:
-                heapq.heappush(max_heap, -(max_seat-1))
+                heapq.heappush(max_heap, -(max_seat-1)) # O(logn)
         
-        return profit
+        return profit # O(n + Blogn)
          
