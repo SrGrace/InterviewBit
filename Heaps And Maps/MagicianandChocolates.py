@@ -63,11 +63,12 @@ Explanation 1:
 """
 
 class Solution:
-	# @param A : integer
-	# @param B : list of integers
-	# @return an integer
-	def nchoc(self, A, B):
+    # @param A : integer
+    # @param B : list of integers
+    # @return an integer
+    def nchoc(self, A, B):
         import heapq
+	    
         max_heap = [-b for b in B]
         heapq.heapify(max_heap) # O(n)
         
