@@ -29,10 +29,10 @@ So, we return an array [2, 3, 3, 2].
 """
 
 class Solution:
-	# @param A : list of integers
-	# @param B : integer
-	# @return a list of integers
-	def dNums(self, A, B):
+    # @param A : list of integers
+    # @param B : integer
+    # @return a list of integers
+    def dNums(self, A, B):
         result = list()
         
         if B > len(A):
@@ -41,9 +41,10 @@ class Solution:
         # Hash map to store frequencies
         from collections import defaultdict
         freq_map = defaultdict(int)
-  
+	    
         distinct_count = 0
-        
+
+	# first window
         for i in range(B):
             if freq_map[A[i]] == 0:
                 distinct_count += 1
@@ -68,6 +69,6 @@ class Solution:
             # update result
             result.append(distinct_count)
         
-        return result # O(len(A)), O(B)
+        return result
         
         
