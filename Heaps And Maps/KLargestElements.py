@@ -37,6 +37,7 @@ Input 1:
 
  A = [11, 3, 4]
  B = 2
+ 
 Input 2:
 
  A = [11, 3, 4, 6]
@@ -47,6 +48,7 @@ Example Output
 Output 1:
 
  [11, 4]
+ 
 Output 2:
 
  [4, 6, 11]
