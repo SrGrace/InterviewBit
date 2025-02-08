@@ -12,7 +12,7 @@ Find the maximum number of chocolates that kid can eat in A units of time.
 NOTE: 
 
 floor() function returns the largest integer less than or equal to a given number.
-Return your answer modulo 109+7
+Return your answer modulo 10^9+7
 
 
 Problem Constraints
