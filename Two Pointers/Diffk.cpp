@@ -42,7 +42,7 @@ int Solution::diffPossible(vector<int> &A, int B)
             i++;
     }
     
-    return 0;
+    return 0; // O(logn)
     
 }
 
