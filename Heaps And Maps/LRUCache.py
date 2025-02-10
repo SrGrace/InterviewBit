@@ -89,4 +89,35 @@ class LRUCache:
             self.cache.popitem(last=False) # invalidate the least recently used key
 
 
+"""
+Optimal Approach: HashMap + Doubly Linked List # O(1), O(1)
+We use:
+
+         HashMap (Dictionary):
+                  To map keys to their corresponding nodes in the linked list for O(1) access.
+                  
+         Doubly Linked List:
+                  To maintain the order of use, with the most recently used items at the front and least recently used items at the back.
+
+Operations
+
+1) get(key): # O(1)
+
+         If the key exists in the cache:
+                  Move the node corresponding to the key to the front of the doubly linked list (marking it as most recently used).
+                  Return its value.
+         If the key does not exist, return -1.
+         
+2) set(key, value): # O(1)
+
+         If the key already exists:
+                  Update the value.
+                  Move the node to the front of the doubly linked list.
+         If the key does not exist:
+                  If the cache is full (i.e., exceeds capacity), remove the least recently used item (from the end of the doubly linked list).
+                  Insert the new key-value pair at the front of the doubly linked list.
+
+"""
+
+
 
