@@ -45,7 +45,7 @@ class Solution:
         distinct_count = 0
 
 	# first window
-        for i in range(B):
+        for i in range(B): # O(B), O(B)
             if freq_map[A[i]] == 0:
                 distinct_count += 1
             freq_map[A[i]] += 1
@@ -69,6 +69,6 @@ class Solution:
             # update result
             result.append(distinct_count)
         
-        return result
+        return result # O(n-B) O(n-B)
         
         
