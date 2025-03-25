@@ -53,6 +53,6 @@ int Solution::maximumGap(const vector<int> &A)
             i++;
     }
     
-    return maxd;
+    return maxd; // O(n), O(n)
     
 }
