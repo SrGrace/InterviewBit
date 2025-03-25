@@ -75,7 +75,7 @@ vector<int> Solution::flip(string A)
     
     res.push_back(st+1); res.push_back(e+1);
     
-    return res;
+    return res; // O(n), O(n)
 }
 
 
