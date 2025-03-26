@@ -53,7 +53,7 @@ class Solution
             
             if (ans < 0) ans = (ans + p) % p;
             
-            return ans;
+            return ans; // O(logn), O(1)
         }
 };
 
