@@ -38,7 +38,7 @@ int bin_search(const vector<int> &A, int B, bool flgfst)
             start = mid + 1;
     }
     
-    return pos;
+    return pos;  // O(logn)
     
 }
 
@@ -57,7 +57,7 @@ int Solution::findCount(const vector<int> &A, int B)
 
     int lstidx = bin_search(A, B, false);
     
-    return lstidx - fstidx + 1;
+    return lstidx - fstidx + 1;  // O(logn), O(1)
     
 }
 
