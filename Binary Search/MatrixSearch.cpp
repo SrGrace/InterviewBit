@@ -67,7 +67,7 @@ int Solution::searchMatrix(vector<vector<int> > &A, int B) {
                 return 0;
         }
     }
-    return 0;
+    return 0; // O(logn), O(1)
 }
 
 
@@ -91,7 +91,7 @@ bool searchMatrix(vector<vector<int> > &matrix, int target)
             r = mid;
     }
     
-    return matrix[r / m][r % m] == target;
+    return matrix[r / m][r % m] == target; // O(logn), O(1)
 }
 
 
