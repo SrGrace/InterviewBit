@@ -29,7 +29,7 @@ Return 0 / 1 ( 0 if the element is not present, 1 if the element is present ) fo
 */
 
 
-# 1st method
+// 1st method
 
 
 bool bin_search(vector<int> &A, int l, int r, int B)
@@ -71,7 +71,7 @@ int Solution::searchMatrix(vector<vector<int> > &A, int B) {
 }
 
 
-# 2nd method
+// 2nd method
 
 
 bool searchMatrix(vector<vector<int> > &matrix, int target)
