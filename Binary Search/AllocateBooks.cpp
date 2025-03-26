@@ -85,10 +85,10 @@ int Solution::books(vector<int> &A, int B)
 
     if(A.size() < B) return -1;
     
-    int l = getMax(A);
-    int h = getSum(A);
+    int l = getMax(A); // O(n)
+    int h = getSum(A); // O(n)
     
-    while(l < h)
+    while(l < h) // O(logn)
     {
         int mid = l + (h - l)/2;
         int reqStuds = getReqStuds(A, mid);
@@ -98,7 +98,7 @@ int Solution::books(vector<int> &A, int B)
             l = mid + 1;
     }
     
-    return l;
+    return l; // O(n + logn), O(1)
 }
 
 
