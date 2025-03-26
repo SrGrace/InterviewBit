@@ -55,7 +55,7 @@ int Solution::findMedian(vector<vector<int> > &A)
             max = mid;
         
     }
-    return min;
+    return min; // O(logn), O(1)
 }
 
 
