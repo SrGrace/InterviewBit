@@ -102,8 +102,8 @@ bool Solution::hotel(vector<int> &arrive, vector<int> &depart, int K)
         }
     }
     
-    return (K >= room);
+    return (K >= room); // O(nlogn), O(n)
     
-}
+} 
 
 
