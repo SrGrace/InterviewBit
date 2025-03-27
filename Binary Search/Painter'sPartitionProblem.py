@@ -111,6 +111,6 @@ class Solution:
             else:
                 l = mid + 1
         
-        return (result*B)%10000003 if result > 0 else (result*B + 10000003)%10000003 # O(logn)
+        return (result*B)%10000003 if result > 0 else (result*B + 10000003)%10000003 # O(logn), O(1)
         
         
