@@ -53,7 +53,7 @@ string Solution::largestNumber(const vector<int> &A)
         s += it;
     }
     
-    return s;
+    return s; // O(nlogn), O(n)
     
 }
 
