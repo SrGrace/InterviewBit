@@ -92,7 +92,7 @@ int Solution::paint(int A, int B, vector<int> &C)
         else
             l = mid + 1;
     }
-    return ((long long)(l*B))%10000003;
+    return ((long long)(l*B))%10000003; // O(logn), O(1)
 }
 
 
