@@ -31,6 +31,6 @@ int Solution::maxSubArray(const vector<int> &A)
         ms = max(ms, me);
     }
     
-    return ms;
+    return ms; // O(n), O(1)
 }
 
