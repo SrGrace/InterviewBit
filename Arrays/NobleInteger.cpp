@@ -41,7 +41,7 @@ int Solution::solve(vector<int> &A)
     else 
         return -1;
     
-}
+} // O(n), O(1)
 
 
 # 2nd method
@@ -65,6 +65,6 @@ int Solution::solve(vector<int> &A)
     if(A[n-1] == 0)
         return 1;
     return -1;
-}
+} // O(nlogn), O(1)
 
 
