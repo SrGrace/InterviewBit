@@ -52,7 +52,7 @@ int Solution::sqrt(int A)
          
     }
     
-    return res;
+    return res; // O(logn), O(1)
 }
 
 
