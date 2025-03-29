@@ -50,6 +50,6 @@ public:
     {
         return A[pivot(A)];
     }
-};
+}; // O(logn), O(1)
 
 
