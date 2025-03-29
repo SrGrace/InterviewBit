@@ -41,7 +41,7 @@ int Solution::searchInsert(vector<int> &A, int B) {
         else 
             r = mid - 1;
     }
-    return l;
+    return l; // O(logn), O(1)
 }
 
 
