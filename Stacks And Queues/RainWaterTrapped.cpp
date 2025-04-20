@@ -12,7 +12,7 @@ Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
 */
 
 
-# 1st method (using Stack)
+// 1st method (using Stack)
 
 
 int Solution::trap(const vector<int> &A) 
@@ -45,7 +45,7 @@ int Solution::trap(const vector<int> &A)
 } // O(n), O(n)
 
 
-# 2nd method (two pointer)
+// 2nd method (two pointer)
 
 
 int Solution::trap(const vector<int> &A) 
