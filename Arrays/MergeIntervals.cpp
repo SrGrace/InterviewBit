@@ -73,7 +73,7 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
         }   
     }   
     
-    return res; // O(n), O(n)
+    return res; // O(nlogn), O(n)
     
 }
 
