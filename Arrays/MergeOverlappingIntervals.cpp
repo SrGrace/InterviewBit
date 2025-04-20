@@ -60,6 +60,6 @@ vector<Interval> Solution::merge(vector<Interval> &A)
     
     return res;
     
-}
+} // o(nlogn), o(n)
 
 
