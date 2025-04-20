@@ -42,7 +42,7 @@ int Solution::trap(const vector<int> &A)
     }
     return vol;
     
-}
+} // O(n), O(n)
 
 
 # 2nd method (two pointer)
@@ -82,7 +82,7 @@ int Solution::trap(const vector<int> &A)
     }
     return vol;
     
-}
+} // O(n), O(1)
 
 
 
