@@ -58,7 +58,7 @@ vector<int> Solution::searchRange(const vector<int> &A, int B)
     v.push_back(bin_search(A, B, true));
     v.push_back(bin_search(A, B, false));
     
-    return v;
+    return v; // O(logn), O(n)
 }
 
 
