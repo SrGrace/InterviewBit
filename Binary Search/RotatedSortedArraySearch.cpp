@@ -54,7 +54,7 @@ int Solution::search(const vector<int> &A, int B)
                 
         }
     }
-    return (A[l] == B) ? l : -1; 
+    return (A[l] == B) ? l : -1; // O(logn), O(1)
 }
 
 
