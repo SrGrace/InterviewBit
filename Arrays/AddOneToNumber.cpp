@@ -21,7 +21,7 @@ as 123 + 1 = 124.
 */
 
 
-# 1st method (May contains leading 0's)
+// # 1st method (May contains leading 0's)
 
 
 vector<int> Solution::plusOne(vector<int> &A) 
@@ -46,13 +46,13 @@ vector<int> Solution::plusOne(vector<int> &A)
     vector<int> v(n+1);
     v[0] = 1;
 
-    return v;
+    return v; // O(n), O(1)
     
 }
 
 
 
-# 2nd method
+// # 2nd method
 
 
 vector<int> Solution::plusOne(vector<int> &A) 
@@ -88,7 +88,7 @@ vector<int> Solution::plusOne(vector<int> &A)
         i--;
     }
     
-    return res;
+    return res; // O(n), O(n)
 }
 
 
