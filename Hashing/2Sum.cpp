@@ -52,7 +52,7 @@ vector<int> Solution::twoSum(const vector<int> &A, int B)
         }
     }
     
-    return v;
+    return v; //O(n), O(n)
 }
 
 
