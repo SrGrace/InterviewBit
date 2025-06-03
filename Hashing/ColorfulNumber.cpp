@@ -54,7 +54,7 @@ int Solution::colorful(int A)
         }
     }
     
-    return 1;
+    return 1; //O(n^2), O(n)
     
 }
 
