@@ -72,7 +72,7 @@ int Solution::minDistance(string A, string B)
         }
     }
     
-    return dp[m][n];
+    return dp[m][n]; //O(mn), O(mn)
 }
 
 
