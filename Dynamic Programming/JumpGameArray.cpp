@@ -37,7 +37,7 @@ int Solution::canJump(vector<int> &A)
             lstPos = i;
     }
     
-    return lstPos == 0;
+    return lstPos == 0; // O(n), O(1)
 }
 
 
@@ -66,7 +66,7 @@ public class Solution {
             }
         }
 
-        return memo[0] == Index.GOOD;
+        return memo[0] == Index.GOOD; // O(n^2), O(n)
     }
 }
 
