@@ -74,7 +74,7 @@ int Solution::atoi(const string &A)
         res = res*10 + (A[i++]-'0');
     }
     
-    return sign*res;
+    return sign*res; // O(n), O(1)
     
 }
 
