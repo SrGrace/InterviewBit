@@ -53,6 +53,7 @@ int Solution::atoi(const string &A)
     
     while(A[i] == ' ') 
         i++;
+    
     if(A[0] == '-' || A[0] == '+')
     {
         if(A[i++] == '-') 
