@@ -49,7 +49,7 @@ Return : "XIV"
     
     string iToR = thou + hund + tens + ones;
     
-    return iToR;
+    return iToR; // O(1), O(1)
 }
 
 
