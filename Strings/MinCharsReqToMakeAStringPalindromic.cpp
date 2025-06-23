@@ -58,7 +58,7 @@ int Solution::solve(string A)
     
     vector<int> lps = lps_array(concat);
     
-    return (A.size() - lps.back());
+    return (A.size() - lps.back()); // O(n), O(n)
     
 }
 
