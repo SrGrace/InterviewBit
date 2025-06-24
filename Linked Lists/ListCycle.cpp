@@ -81,7 +81,7 @@ ListNode* Solution::detectCycle(ListNode* A)
 
     ListNode *slow, *fast, *st;
 
-    slow = fast = head;
+    slow = fast = A;
     
     while (slow && fast && fast->next)
     {
@@ -90,18 +90,17 @@ ListNode* Solution::detectCycle(ListNode* A)
 
         if (slow == fast)
         {
-            st = head;
+            st = A;
 
             while (slow != st)
             {
                 st = st->next;
                 slow = slow->next;
-                return st;
             }
          }
     }
     
-    return NULL;
+    return NULL; // O(n), O(1)
     
 }
 
