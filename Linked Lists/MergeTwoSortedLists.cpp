@@ -52,7 +52,7 @@ ListNode* Solution::mergeTwoLists(ListNode* A, ListNode* B)
         res->next = mergeTwoLists(B->next, A);
     }
     
-    return res;
+    return res; // O(n), O(n)
     
 }
 
