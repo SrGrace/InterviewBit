@@ -97,6 +97,7 @@ ListNode* Solution::detectCycle(ListNode* A)
                 st = st->next;
                 slow = slow->next;
             }
+            return st;
          }
     }
     
