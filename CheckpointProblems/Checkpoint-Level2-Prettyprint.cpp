@@ -67,7 +67,7 @@ vector<vector<int> > Solution::prettyPrint(int A)
         tmp++;
     }
     
-    return v;
+    return v; // O(n^2), O(n)
     
 }
 
