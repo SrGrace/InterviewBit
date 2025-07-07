@@ -77,7 +77,7 @@ public:
             return vector<TreeNode*>();
         else 
             return generate(1, n);
-    }
+    } // O(n^2), O(n)
 };
 
 
