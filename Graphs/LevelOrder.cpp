@@ -65,7 +65,7 @@ vector<vector<int> > Solution::levelOrder(TreeNode* A)
         v.push_back(v1);
     }
     
-    return v;
+    return v; // O(n), O(n)
 }
 
 
