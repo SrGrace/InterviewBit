@@ -35,7 +35,8 @@ vector<string> Solution::fizzBuzz(int A)
             v.push_back(to_string(i));
     }
     
-    return v;
+    return v; // O(n), O(n)
+    
 }
 
 
