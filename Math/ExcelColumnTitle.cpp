@@ -33,7 +33,7 @@ string Solution::convertToTitle(int A)
         s=char(A%26+'A')+s;
         A/=26;
     }
-    return s;
+    return s; // O(log26(A)), O(log26(A))
 }
 
 
