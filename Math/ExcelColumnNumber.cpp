@@ -38,7 +38,7 @@ int Solution::titleToNumber(string A)
         res *= 26;
         res += ch-'A'+1;
     }
-    return res;
+    return res; // O(n), O(1)
 }
 
 
