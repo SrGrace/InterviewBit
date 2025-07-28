@@ -41,7 +41,7 @@ vector<int> Solution::grayCode(int A)
         }
     }
     
-    return res;
+    return res; // O(2^A), O(2^A)
 }
 
 
