@@ -60,7 +60,7 @@ vector<vector<int> > Solution::combine(int n, int k)
     comb(n, k, 1, v, v1);
     sort(v.begin(), v.end());
     
-    return v;
+    return v; // O(C(n, k) * k), O(C(n, k) * k)
 }
 
 
