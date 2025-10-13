@@ -49,6 +49,18 @@ int Solution::repeatedNumber(const vector<int> &A)
 }
 
 
+class Solution:
+    # @param A : tuple of integers
+    # @return an integer
+    def repeatedNumber(self, A):
+        visit = [True]*len(A)
+        for a in A:
+            if visit[a]:
+                visit[a] = False
+            else:
+                return a 
+        return -1
+
 
 
 
