@@ -71,7 +71,7 @@ class LRUCache:
         self.capacity = capacity
 
     # @return an integer
-    def get(self, key): # O(n)
+    def get(self, key): # O(1), O(capacity)
         if key in self.cache:
             self.cache.move_to_end(key) # mark key as recently used
             return self.cache[key]
@@ -80,7 +80,7 @@ class LRUCache:
     # @param key, an integer
     # @param value, an integer
     # @return nothing
-    def set(self, key, value): # O(n)
+    def set(self, key, value): # O(1), O(capacity)
         if key in self.cache:
             self.cache.move_to_end(key) # mark key as recently used
         self.cache[key] = value # insert/update
