@@ -54,6 +54,7 @@ class Solution:
     # @param A : list of integers
     # @return a list of integers
     def plusOne(self, A):
+        # edge case: remove leading zeros
         i = 0
         while i < len(A) - 1 and A[i] == 0:
             i += 1
